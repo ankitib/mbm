@@ -7,17 +7,8 @@
     username: root
     password: 
 
-  production:
-    adapter: mysql2
-    encoding: utf8
-    reconnect: true
-    database: heroku_5de664e47185482
-    host: us-cdbr-east-04.cleardb.com
-    username: b034f17578c15d
-    password: cdf6d613
-
   test:
     adapter: sqlite3
-    database: db/test.sqlite
+    database: db/test.sqlite3
     pool: 5
     timeout: 5000
