@@ -18,6 +18,15 @@ gem "dynamic_form"
 gem "exception_notification", "2.6.1"
 
 gem "unicorn"
+gem 'activeadmin'
+gem "meta_search",    '>= 1.1.0.pre'
+
+group :assets do
+    gem 'sass-rails',   '~> 3.2.5'
+    gem 'coffee-rails', '~> 3.2.2'
+    # gem 'uglifier', '>= 1.2.4'
+    gem 'bootstrap-sass', '~> 2.0.3.1'
+end
 
 # for asset compilation
 gem "uglifier"

@@ -3,6 +3,7 @@ class Tag < ActiveRecord::Base
     :dependent => :delete_all
 
   attr_accessor :filtered_count
+  attr_accessible :tag, :description, :filtered_by_default, :privileged, :is_media
 
   scope :accessible_to, ->(user) do
     user && user.is_admin?? all : where(:privileged => false)
