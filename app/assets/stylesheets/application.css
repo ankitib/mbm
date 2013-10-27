@@ -212,8 +212,9 @@ input:disabled, button:disabled {
 /* outliners */
 
 div#wrapper {
-	
-	
+	//margin-left: auto;
+	margin-right: auto;
+	padding-bottom: 5em;
 	min-width: 800px;
 	max-width: 1000px;
 }
