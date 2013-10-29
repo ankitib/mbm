@@ -219,10 +219,10 @@ div#wrapper {
 	max-width: 1000px;
 }
 div#inside {
-	/*margin-left: 0.25em;*/
-	/*margin-right: 0.25em;*/
-	float: left;
-	max-width: 70%;
+	margin-left: 0.25em;
+	margin-right: 0.25em;
+	/*float: left;*/
+	/*max-width: 70%;*/
 }
 
 div#inside_right {
