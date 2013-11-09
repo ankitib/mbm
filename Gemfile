@@ -34,6 +34,7 @@ gem "uglifier"
 gem "nokogiri"
 gem "htmlentities"
 gem "rdiscount"
+gem "mina"
 
 gem "oauth"
 
