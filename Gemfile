@@ -42,6 +42,8 @@ gem "thinking-sphinx", "2.0.12"
 
 gem "mail"
 
+gem "thin"
+
 group :test, :development do
   gem "rspec-rails", "~> 2.6"
   gem "machinist"
