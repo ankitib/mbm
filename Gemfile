@@ -17,11 +17,10 @@ gem "dynamic_form"
 # use old version that doesn't have tinder bullshit
 gem "exception_notification", "2.6.1"
 
-<<<<<<< HEAD
 #gem "unicorn"
-=======
+
 gem "unicorn", "4.7.0"
->>>>>>> 2ea3a1eaa050ae3001d2852e3db7c3fa8ecaebcf
+
 gem 'activeadmin'
 gem "meta_search",    '>= 1.1.0.pre'
 
