@@ -212,7 +212,7 @@ input:disabled, button:disabled {
 /* outliners */
 
 div#wrapper {
-	margin-left: auto;
+	//margin-left: auto;
 	margin-right: auto;
 	padding-bottom: 5em;
 	min-width: 800px;
@@ -243,7 +243,7 @@ div#inside_right {
 }
 
 #headerleft {
-	float: left;
+	float: right;
 }
 
 #l_holder {
