@@ -1,6 +1,6 @@
 class << Rails.application
     def domain
-      "mbm.heroku.com"
+      "merabharatmahaan.co.in"
     end
 
     def name
